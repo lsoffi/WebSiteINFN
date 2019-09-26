@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+	Synchronous by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Virtual Box</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="wrapper">
+			
+			<!-- Header -->
+			<div id="header">
+				<div class="container"> 
+					
+					<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">Virtual Box</a></h1>
+						<span></span>
+					</div>
+				</div>
+			</div>
+			<!-- /Header -->
+			
+			<div id="page">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+							<section id="content" >
+								<p>
+<ul>
+  <li><a href="https://www.virtualbox.org/wiki/Screenshots" target="_blank" >Virtualbox</a> + Linux: potete installare il programma gratuito Virtualbox sul vostro computer come un qualsiasi programma. Potete poi installare una macchina virtuale con Linux all'interno di questo programma, come mostrato nella pagina collegata. Questo vi risparmia la fatica di installare cygwin con i pacchetti giusti e soprattutto la sua configurazione. Inoltre e` piu` semplice di partizionare il disco e gestire un sistema dual boot.</li>
+<br>
+  <li>Se avete installato Virtualbox, potete anche semplicemente importare una di queste macchine virtuali ubuntu che includono gia` il compilatore gcc e l'editor di testo emcas, e con l'utente labcalcolo gia` configurato (la passwd coincide con lo username). Attenzione: i file sono di circa 2 GB ciascuno.</li>
+  <br>
+  <ol>
+    <li>Scaricate il file per <a href="" target="_blank" >la macchina virtuale a 32 bit</a> (1.5 GB)</li>
+<br>
+    <li>oppure se avete problemi provate con il file per <a href="" target="_blank" >la macchina virtuale a 64 bit</a> (2 GB)</li>
+    <br>
+    <li>Dal menu di VirtualBox sceglietei "File->Import Appliance" che aprira` una finestra di dialogo in cui dovete selezionare il file appena scaricato</li>
+<br>
+    <li>  In questo modo trovete una macchina virtuale ubuntu con un utente labcalcolo gia` configurato correttamente</li>
+    
+    <ol>
+      
+      <ul
+	 </p>
+							</section>
+						</div>
+					</div>
+
+				</div>	
+			</div>
+
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<div class="container">
+					Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

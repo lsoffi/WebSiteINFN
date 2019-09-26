@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+<!--
+	Synchronous by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Emacs</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="wrapper">
+			
+			<!-- Header -->
+			<div id="header">
+				<div class="container"> 
+					
+					<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">Emacs</a></h1>
+						<span></span>
+					</div>
+					<nav id="nav">
+                                          <ul>
+                                            <li><a href="../../index.html">Home</a></li>
+                                          </ul>
+                                        </nav>
+				</div>
+			</div>
+			<!-- /Header -->
+			
+			<div id="page">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+							<section id="content" >
+							  <p>
+
+Breve Introduzione a Gnu Emacs
+(dal sito del professor Luciano Barone, Sapienza Universita’ di Roma)
+I comandi di Emacs usano sia la key CONTROL (abbreviata con C-, CTRL- o CTL-) che la key META  (abbreviata con M-, EDIT- o ALT-). Di solito come key META e’ usata la key
+ESCAPE (abbreviata con ESC).
+
+Nel seguito useremo la seguente convenzione:
+
+C-<chr>        che significa premere contemporaneamente la key CONTROL e il
+carattere <chr>.
+Es. C-h significa premere CTRL e h contemporaneamente
+
+M-<chr>        che significa premere contemporaneamente la key META e il
+carattere <chr>.
+
+Es. M-h significa premere ESC e h contemporaneamente
+
+Avvio di Emacs:
+Per avviare emacs semplicmente scrivere emacs:
+
+>  emacs <RET>
+
+Per editare un file:
+
+> emacs filename <RET>
+
+Terminare Emacs:
+Per  uscire da Emacs:            C-x C-c
+
+Se il file che si sta’ editando e’ stato modificato emacs chiedera’ se si vuole salvare o no
+il file.
+
+Files:
+Leggi un file in Emacs                              C-x  C-f
+Salva il file senza uscire                           C-x  C-s
+Inserisci il contenuto di un altro file        C-x i
+Salva il buffer come file                           C-x  C-w
+
+In caso di errore:
+Annulla il comando                                    C-g
+Annulla ultimo cambio                              C-x u  o C-_
+
+Ricerca:
+Cerca in avanti                                            C-s
+Cerca indietro                                             C-r
+Esci dalla ricerca                                        RET
+Annulla ultimo carattere della ric             DEL
+Annulla corrente ricerca                            C-g
+
+    Usare C-s or C-r ripetutamente per continuare a cercare.
+
+Movimento Cursore:
+Direzione                                                    Avanti                    Indietro
+carattere                                                       C-b o freccia        C-f o freccia
+parola                                                           M-b                      M-f
+linea                                                             C-p o freccia        C-n o freccia
+Inizio/fine linea                                           C-a                       C-e
+
+Cancella:
+Direzione                                                    Indietro                    Avanti
+carattere                                                      DEL                          C-d
+parola                                                          M-DEL                    M-d
+linea  (fino alla fine)                                  M-O C-k                 C-k 
+inserisci ultima cosa cancellata                                      C-y
+
+Puntatore:
+Inserisci puntatore                                      C-@ o C-SPC
+
+Sostituire:
+Sostituisci una stringa di teso                    M-%
+
+Risposte Valide:
+Sostituisci e vai alla prossima                    SPC
+Sostituisci e non muoverti                          ,
+Non sostiuire e vai alla prossima               DEL
+Sostituisci tutti i rimanenti                        | 
+esci                                                               RET
+
+Piu’ Finestre:
+Cancella tutte le finestre                            C-x  1
+Dividi la finestra in due                             C-x  2
+Passa il cursore all’altra finestra                C-x o
+
+Buffers:
+Seleziona un altro buffer                            C-x b
+Lista tutti i buffers                                     C-x C-b
+Elimina un buffer                                       C-x k 
+
+
+	 </p>
+							</section>
+						</div>
+					</div>
+
+				</div>	
+			</div>
+
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<div class="container">
+					Design: <a href="http://templated.co">TEMPLATED</a> 
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

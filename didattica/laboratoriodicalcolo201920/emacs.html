@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<!--
+	Synchronous by TEMPLATED
+    templated.co @templatedco
+    Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Emacs</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<body>
+		<div id="wrapper">
+			
+			<!-- Header -->
+			<div id="header">
+				<div class="container"> 
+					
+					<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">Emacs</a></h1>
+						<span></span>
+					</div>
+					<nav id="nav">
+                                          <ul>
+                                            <li><a href="../../index.html">Home</a></li>
+                                          </ul>
+                                        </nav>
+				</div>
+			</div>
+			<!-- /Header -->
+			
+			<div id="page">
+				<div class="container">
+					<div class="row">
+						<div class="12u">
+							<section id="content" >
+							  <p>
+
+							    <h1>Breve Introduzione a Gnu Emacs</h1>
+<h3>(dal sito del professor Luciano Barone, Sapienza Universita&#8217; di Roma)</h3>
+<p>I comandi di <b>Emacs</b> usano sia la key <b>CONTROL </b>(abbreviata con <b>C-</b>, <b>CTRL-</b> o <b>CTL-</b>) che la key <b>META</b>  (abbreviata con <b>M-</b>, <b>EDIT-</b> o <b>ALT-</b>). Di solito come key <b>META</b> e&#8217; usata la key<br />
+<b>ESCAPE</b> (abbreviata con <b>ESC</b>).</p>
+<p>Nel seguito useremo la seguente convenzione:</p>
+<p><b>C-&lt;chr&gt;</b>        che significa premere contemporaneamente la key <b>CONTROL </b>e il<br />
+carattere <b>&lt;chr&gt;</b>.<br />
+Es. <b>C-h </b>significa premere <b>CTRL </b>e <b>h <i>contemporaneamente</i></b></p>
+<p><b>M-&lt;chr&gt;</b>        che significa premere contemporaneamente la key <b>META</b> e il<br />
+carattere <b>&lt;chr&gt;</b>.</p>
+<p>Es. <b>M-h</b> significa premere <b>ESC</b> e <b>h</b> c<b><i>ontemporaneamente</i></b></p>
+<h3>Avvio di Emacs:</h3>
+<p>Per avviare emacs semplicmente scrivere <b>emacs</b>:</p>
+<p><b>&gt;  emacs &lt;RET&gt;</b></p>
+<p>Per editare un file:</p>
+<p><b>&gt; emacs filename &lt;RET&gt;</b></p>
+<h3>Terminare Emacs:</h3>
+<p>Per  uscire da Emacs:            <b>C-x C-c</b></p>
+<p>Se il file che si sta&#8217; editando e&#8217; stato modificato emacs chiedera&#8217; se si vuole salvare o no<br />
+il file.<br />
+<b></b></p>
+<h3>Files:</h3>
+<p>Leggi un file in Emacs                              <b>C-x  C-f</b><br />
+Salva il file senza uscire                           <b>C-x  C-s</b><br />
+Inserisci il contenuto di un altro file        <b>C-x i</b><br />
+Salva il buffer come file                           <b>C-x  C-w</b><b></b></p>
+<h3>In caso di errore:</h3>
+<p>Annulla il comando                                    <b>C-g</b><br />
+Annulla ultimo cambio                              <b>C-x u  o C-_</b><b></b></p>
+<h3>Ricerca:</h3>
+<p>Cerca in avanti                                            <b>C-s</b><br />
+Cerca indietro                                             <b>C-r</b><br />
+Esci dalla ricerca                                        <b>RET</b><br />
+Annulla ultimo carattere della ric             <b>DEL</b><br />
+Annulla corrente ricerca                            <b>C-g</b><b></b></p>
+<p><b>    </b>Usare <b>C-s</b> or <b>C-r </b>ripetutamente per continuare a cercare.</p>
+<h3>Movimento Cursore:</h3>
+<p>Direzione                                                    Avanti                    Indietro<br />
+carattere                                                       <b>C-b</b> o <b>freccia</b>        <b>C-f</b> o <b>freccia</b><br />
+parola                                                           <b>M-b </b>                     <b>M-f</b><br />
+linea                                                             <b>C-p</b> o <b>freccia</b>        <b>C-n</b> o f<b>reccia</b><br />
+Inizio/fine linea                                           <b>C-a </b>                      <b>C-e</b></p>
+<h3>Cancella:</h3>
+<p>Direzione                                                    Indietro                    Avanti<br />
+carattere                                                      <b>DEL</b>                          <b>C-d</b><br />
+parola                                                          <b>M-DEL</b>                    <b>M-d</b><br />
+linea  (fino alla fine)                                  <b>M-O C-k</b>                 <b>C-k </b><br />
+inserisci ultima cosa cancellata                                      <b>C-y</b></p>
+<h3>Puntatore:</h3>
+<p>Inserisci puntatore                                      <b>C-@</b> o <b>C-SPC</b><b></b></p>
+<h3>Sostituire:</h3>
+<p>Sostituisci una stringa di teso                    <b>M-%</b></p>
+<p>Risposte Valide:<br />
+Sostituisci e vai alla prossima                    <b>SPC</b><br />
+Sostituisci e non muoverti                          <b>,</b><br />
+Non sostiuire e vai alla prossima               <b>DEL</b><br />
+Sostituisci tutti i rimanenti                       <b> | </b><br />
+esci                                                               <b>RET</b><b></b></p>
+<h3>Piu&#8217; Finestre:</h3>
+<p>Cancella tutte le finestre                            <b>C-x  1</b><br />
+Dividi la finestra in due                             <b>C-x  2</b><br />
+Passa il cursore all&#8217;altra finestra                <b>C-x o</b><b></b></p>
+<h3>Buffers:</h3>
+<p>Seleziona un altro buffer                            <b>C-x b</b><br />
+Lista tutti i buffers                                     <b>C-x C-b</b><br />
+Elimina un buffer                                       <b>C-x k </b></p>
+	 </p>
+							</section>
+						</div>
+					</div>
+
+				</div>	
+			</div>
+
+
+			<!-- Copyright -->
+			<div id="copyright">
+				<div class="container">
+					Design: <a href="http://templated.co">TEMPLATED</a> 
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>

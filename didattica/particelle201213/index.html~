@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #812231;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #812231;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #812231;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #812231}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body {
+  background-image: url("cms2.jpg");
+}
+.classe_img_con_didascalia { 
+     float: left; 
+     position: relative; 
+     overflow: hidden; 
+ } 
+  
+ .classe_img_con_didascalia p { 
+     position: absolute; 
+     left: 0; 
+     bottom: 0; 
+     background: none repeat scroll 0 0 rgba(0, 0, 0, 0.7); 
+     color: #fff; 
+     display: none; 
+     width: 100%; 
+     padding: 10px; 
+ } 
+  
+ .classe_img_con_didascalia:hover p { 
+     display:block; 
+ } 
+div.a {
+        text-align: center;
+}
+table  {
+border-collapse:collapse
+}
+td, th {
+border:1px solid #812231;
+padding:8px;
+}
+</style>
+</head>
+<body>
+<div class="a">
+ 
+<h1>
+<p> Esercitazioni del Corso di Fisica Nucleare e Subnucleare 2012/2013 Del Prof. E. Longo </p>
+</h1>
+</div>
+
+<a href="" target="_blank"> Link alla pagina del corso 2012/2013</a>
+<br>
+<br>
+<br>
+<font size="4">
+<table align="center">
+  <tr><td style="font-weight:bold">Data</td><td style="font-weight:bold">Argomento</td></tr>
+  <tr><td>05/03/19</td><td></td></tr>
+
+<div class="footer">
+<a href="http://www.roma1.infn.it/~lsoffi/" target="_blank">Home</a> 
+</div>
+</table>
+</font>
+</body>
+</html>
