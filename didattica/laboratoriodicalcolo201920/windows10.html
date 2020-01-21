@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Istruzioni Linux shell su Windows 10</title>
+
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h2 id="installare-linux-su-windows">Utilizzare la Shell di Linux su Windows</h2>
+      <p> Note a cura della Dott. G. D`imperio</p>
+<br>
+<p>Per chi è curioso di capire meglio cosa è Linux su Windows,  trovate qualcosa su <a href="https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux">Wikipedia</a> . Tra le possibili distribuzioni linux consigliamo di scegliere Ubuntu o Debian.</p>
+<p><a href="%5Bhttps://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/%5D(https://seanthegeek.net/234/graphical-linux-applications-bash-ubuntu-windows/)">Questa</a> è una guida in inglese che spiega i prerequisiti e i passi da fare per avere una installazione della shell Linux su Windows con interfaccia grafica.</p>
+<p>Qui comunque sono estratti in maniera sintetica i passaggi necessari.</p>
+<ol>
+<li>Dal Microsoft Store scaricare e installare l’applicazione Ubuntu</li>
+<li>Quando aprirete l’applicazione avrete un terminale come questo 
+ <img src="screenshotGD.png" weight="150" height="90"> <br>
+Vi verrà chiesto di creare un nuovo utente UNIX con nome, password e conferma della password (è normale che non si veda nulla sul terminale quando digitate le password).<br>
+User e password potete sceglierli arbitrariamente e sono indipendenti da quelli di Windows, sono relativi alle operazioni che svolgete nella shell Linux.</li>
+<li>Per avere l’interfaccia grafica funzionante dovrete installare un X server per Windows come <a href="https://sourceforge.net/projects/vcxsrv/">VcXsrv</a></li>
+<li>Una volta installato e avviato VccXsrv digitate sulla shell Linux<br>
+<code>echo "export DISPLAY=localhost:0.0" &gt;&gt; ~/.bashrc</code></li>
+<li>Per fare in modo che i cambiamenti abbiano effetto, chiudete e riaprite Ubuntu.</li>
+</ol>
+<h2 id="installare-le-applicazioni-necessarie-per-il-laboratorio-di-calcolo">Installare le applicazioni necessarie per il Laboratorio di Calcolo</h2>
+<p>Se avete già installato alcune cose attraverso Windows (tipo gcc, emacs, ecc…) non funzioneranno per Ubuntu, ma dovrete reinstallare tutto attraverso la shell di Linux come spiegato sotto.<br>
+Prima di tutto scaricate gli aggiornamenti di Ubuntu digitando sulla shell</p>
+<pre><code>   sudo apt update
+   sudo apt upgrade
+</code></pre>
+<p>Il comando <code>sudo</code> serve a eseguire i comandi come amministratore, ed è necessario per operazioni tipo installare pacchetti o aggiornamenti.</p>
+<ul>
+<li>Per installare l’editor (si consiglia di usare emacs) digitare sulla shell il comando</li>
+</ul>
+<pre><code>   sudo apt-get install emacs
+</code></pre>
+<ul>
+<li>Per il compilatore</li>
+</ul>
+<pre><code>   sudo apt-get install gcc 
+</code></pre>
+<ul>
+<li>Per avere python3 con numpy e matplotlib</li>
+</ul>
+<pre><code>   sudo apt-get install python3 python3-tk python3-pip3
+   pip3 install numpy matplotlib
+</code></pre>
+<p>A questo punto dovreste avere il necessario per svolgere a casa gli esercizi che avete fatto in laboratorio su Windows10!</p>
+<hr>
+<p><strong>Nota</strong></p>
+<p>Questa guida potrebbe essere incompleta. Se vi serve aiuto  chiedete a lezione o mandate una mail a <a href="mailto:giulia.dimperio@roma1.infn.it">giulia.dimperio@roma1.infn.it</a></p>
+<hr>
+</div>
+</body>
+
+</html>
